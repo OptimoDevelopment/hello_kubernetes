@@ -1,4 +1,4 @@
-FROM python:3.6-alpine3.7
+FROM resin/raspberrypi3-alpine-python:3.6
 
 ARG APP_PORT=8077
 
