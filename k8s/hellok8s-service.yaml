@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: hellok8s
+spec:
+  selector:
+    app: hellok8s
+  type: NodePort
+  ports:
+  - protocol: TCP
+    port: 8077
+    targetPort: 8077
