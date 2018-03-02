@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
       - name: hellok8s
-        image: optimodev/hellok8s
+        image: optimodev/hellok8s:v1
         ports:
-        - containerPort: 5000
+        - containerPort: 80
+        imagePullPolicy: "Always"
